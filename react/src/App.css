@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+html {
+  border-left: 5px solid lightgray;
+  font-weight: lighter;
+}
+
+body{
+  min-height: 100vh;
+  font-family:sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+}
+header h1, h2{
+  font-weight: lighter;
+}
+header h1 {
+  color: tomato;
+  font-size: 5rem;
+
+}
+
+header h2{
+  color: black;
+  font-size: 3rem;
+}
+img{
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+time{
+  color: rgb(154, 151, 151);
+  font-size: 2rem;
+}
+.footerNav a {
+  color: tomato;
+}
+
+article h1 {
+  color:black;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.continue-link{
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+article{
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  color: rgb(84, 83, 83);
+}
+
+article > p::first-letter {
+  font-size: 5rem; 
+  font-weight: lighter;  
+  color: rgb(154, 151, 151);
+  float: left;
+  padding-right: 0.1em; 
+  line-height: 1;
+}
+footer p{
+  color: rgb(154, 151, 151);
+}
